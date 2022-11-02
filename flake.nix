@@ -6,8 +6,8 @@
     build-utils.url  = "github:sixears/flake-build-utils/r1.0.0.3";
 
     base0t.url       = "github:sixears/base0t/r0.0.1.1";
-    base1.url        = "github:sixears/base1/r0.0.9.3";
-    tasty-plus.url   = "github:sixears/tasty-plus/r1.5.2.3";
+    base1.url        = "github:sixears/base1/r0.0.9.4";
+    tasty-plus.url   = "github:sixears/tasty-plus/r1.5.2.4";
   };
 
   outputs = { self, nixpkgs, flake-utils, build-utils
