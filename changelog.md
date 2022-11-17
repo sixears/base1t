@@ -1,3 +1,7 @@
+0.0.5.12 2022-11-17
+===================
+- upgrade to callPackage-based versions
+
 0.0.5.11 2022-11-13
 ===================
 - fix fixed-package-name typo in flake-build-utils
