@@ -10,7 +10,7 @@ name:                base1t
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.0.5.19
+version:             0.0.5.20
 
 -- A short (one-line) description of the package.
 synopsis:            Prelude replacement, first-level local packages, incl. tests
