@@ -6,7 +6,7 @@
     build-utils.url  = "github:sixears/flake-build-utils/r1.0.0.12";
 
     base0t.url       = "github:sixears/base0t/r0.0.1.10";
-    base1.url        = "github:sixears/base1/r0.0.9.21";
+    base1.url        = github:sixears/base1/r0.0.9.22;
     tasty-plus.url   = "github:sixears/tasty-plus/r1.5.2.16";
   };
 
