@@ -6,8 +6,8 @@
     build-utils.url  = github:sixears/flake-build-utils/r1.0.0.13;
 
     base0t.url       = github:sixears/base0t/r0.0.1.13;
-    base1.url        = github:sixears/base1/r0.0.9.31;
-    tasty-plus.url   = github:sixears/tasty-plus/r1.5.2.21;
+    base1.url        = github:sixears/base1/r0.0.9.32;
+    tasty-plus.url   = github:sixears/tasty-plus/r1.5.2.22;
   };
 
   outputs = { self, nixpkgs, build-utils
@@ -23,7 +23,7 @@
         in
           mkDerivation {
             pname = "base1t";
-            version = "0.0.5.27";
+            version = "0.0.5.34";
             src = ./.;
             libraryHaskellDepends = mapPkg [ base0t base1 tasty-plus ];
             description = "Prelude replacement, first-level local packages, incl. tests";
